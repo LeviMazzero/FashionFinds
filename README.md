@@ -99,7 +99,7 @@ Pontuações sobre a empresa
             <td>
                 <ol>
                     <li>O aplicativo deve ter uma interface intuitiva e amigável.</li>
-                    <li>Os produtos devem ser categorizados e filtrados de forma eficiente.</li>
+                    <li>Os produtos devem ser categorizados e filtrados de forma clara, por tipos de produtos, cores, marca e tamanhos disponiveis.</li>
                     <li>A busca por produtos deve ser rápida e precisa no máximo 5 segundos.</li>
                 </ol>
             </td>
@@ -112,31 +112,31 @@ Pontuações sobre a empresa
                 <ol>
                     <li>As fotos dos produtos devem ser de alta qualidade e mostrar o produto em diferentes ângulos.</li>
                     <li>As informações dos produtos devem ser completas e precisas, incluindo descrição, tamanho, cor, material, etc.</li>
-                    <li>O cliente deve poder ampliar as fotos e ler as informações com facilidade.</li>
+                    <li>O cliente pode alterar o tamanho e cor desejado do produto de acordo com as opções oferecidas pela loja.</li>
                 </ol>
             </td>
             <td>Alta</td>
         </tr>
         <tr>
             <td>US3</td>
-            <td>Como cliente, quero poder adicionar produtos ao carrinho de compras e finalizar a compra de forma rápida e segura.</td>
+            <td>Como cliente, quero poder adicionar produtos ao carrinho de compras e finalizar a compra em ate quatro telas(Carrinho, endereço e metodo de entrega, forma de pagamento e confirmação dos dados).</td>
             <td>
                 <ol>
-                    <li>O processo de checkout deve ser simples e intuitivo.</li>
-                    <li>O cliente deve poder escolher entre diferentes formas de pagamento.</li>
-                    <li>O cliente deve receber um e-mail de confirmação de compra após finalizar o pedido.</li>
+                    <li>O processo de checkout deve ser simples e direcional, com um fluxo sem retornos naturais a telas anteriores</li>
+                    <li>O cliente deve poder escolher entre diferentes formas de pagamento mantendo a segurança de suas informações.</li>
+                    <li>O cliente deve receber um e-mail/sms de confirmação de compra após finalizar o pedido contendo o recibo/codigo de sua compra.</li>
                 </ol>
             </td>
             <td>Alta</td>
         </tr>
         <tr>
             <td>US4</td>
-            <td>Como comerciante local, quero poder cadastrar meus produtos no aplicativo de forma rápida e fácil.</td>
+            <td>Como comerciante local, quero poder cadastrar meus produtos no aplicativo de forma rápida e fácil, onde todo processo ocorra em até tres telas (descrição, fotos, formas de pagamento do cliente).</td>
             <td>
                 <ol>
-                    <li>O processo de cadastro de produtos deve ser intuitivo e eficiente.</li>
-                    <li>O comerciante deve poder fornecer todas as informações relevantes sobre seus produtos.</li>
-                    <li>O comerciante deve poder acompanhar o status de seus produtos no aplicativo.</li>
+                    <li>O comerciante deve poder fornecer todas as informações relevantes sobre seus produtos e suas opções disponiveis.</li>
+                    <li>O processo de cadastro do produto inclui fotos com variação de tamanho e cor do produto facilitando assim a identificação do mesmo de acordo com as diretrizes do aplicativo.</li>
+                    <li>O comerciante deve poder selecionar formas de pagamento e parcelamento para seus produtos, além de descontos aplicados aos mesmos.</li>
                 </ol>
             </td>
             <td>Média</td>
@@ -160,7 +160,7 @@ Pontuações sobre a empresa
                 <ol>
                     <li>O aplicativo deve fornecer um canal de comunicação direto entre o cliente e o comerciante.</li>
                     <li>O cliente deve poder enviar mensagens e fotos para o comerciante.</li>
-                    <li>O comerciante deve responder às mensagens do cliente em tempo hábil.</li>
+                    <li>O comerciante deve responder às mensagens do cliente em tempo hábil(o tempo depende do comerciante porem o aplicativo incentiva respostas rapidas via push notifications).</li>
                 </ol>
             </td>
             <td>Baixa</td>
@@ -170,9 +170,9 @@ Pontuações sobre a empresa
             <td>Como cliente, quero poder avaliar os produtos que comprei e compartilhar minha opinião com outros clientes.</td>
             <td>
                 <ol>
-                    <li>O aplicativo deve permitir que os clientes avaliem os produtos com estrelas.</li>
-                    <li>O aplicativo deve permitir que os clientes escrevam comentários sobre os produtos.</li>
-                    <li>Os comentários dos clientes devem ser visíveis para outros clientes.</li>
+                    <li>O aplicativo deve permitir que os clientes avaliem os produtos com estrelas de um a cinco.</li>
+                    <li>O aplicativo deve permitir que os clientes escrevam comentários e fotos sobre os produtos junto de sua avaliação.</li>
+                    <li>Os comentários dos clientes devem ser visíveis para outros clientes porem sendo moderados pelas diretrizes do aplicativo.</li>
                 </ol>
             </td>
             <td>Baixa</td>
@@ -194,11 +194,11 @@ Pontuações sobre a empresa
     <tbody>
         <tr>
             <td>RF1</td>
-            <td>O aplicativo deve permitir que os clientes procurem produtos por nome, categoria, localização, etc.</td>
+            <td>O aplicativo deve permitir que os clientes procurem produtos por nome, categoria e localização.</td>
             <td>
                 <ol>
-                    <li>A busca deve ser rápida e precisa.</li>
-                    <li>Os resultados da busca devem ser relevantes para a consulta do cliente.</li>
+                    <li>A busca deve ser rápida e precisa, utilizando indices em nome e categoria para melhor otimização de informações no banco de dados.</li>
+                    <li>Os resultados da busca devem ser relevantes para a consulta do cliente, tambem aparecendo produtos correlacionados de acordo com localização, categoria de outras lojas ou comprados em conjunto na mesma loja.</li>
                 </ol>
             </td>
             <td>Alta</td>
@@ -208,9 +208,10 @@ Pontuações sobre a empresa
             <td>O aplicativo deve permitir que os clientes comprem produtos online e paguem com segurança.</td>
             <td>
                 <ol>
-                    <li>O processo de checkout deve ser simples e intuitivo.</li>
-                    <li>O cliente deve poder escolher entre diferentes formas de pagamento.</li>
-                    <li>O cliente deve receber um e-mail de confirmação de compra após finalizar o pedido.</li>
+                    <li>O processo de checkout deve ser simples e intuitivo onde todo processo ocorra em ate quatro telas(Carrinho, endereço e metodo de entrega, forma de pagamento e confirmação dos dados).</li>
+                    <li>O cliente deve poder escolher entre diferentes formas de pagamento tais quais pix, cartão de credito, debito, boleto e a opção de compras parceladas.</li>
+                    <li>Os dados de pagamento do cliente precisam ser enviados de forma segura atraves de uma encriptação via JWT e caso disponivel TOPT se disponbilizado pelo banco de pagamento</li>
+                    <li>O cliente deve receber um e-mail/sms de confirmação de compra após finalizar o pedido contendo o recibo.</li>
                 </ol>
             </td>
             <td>Alta</td>
@@ -234,43 +235,43 @@ Pontuações sobre a empresa
         <tr>
             <td>RNF1</td>
             <td>Segurança</td>
-            <td>O aplicativo deve proteger os dados dos usuários contra acesso não autorizado, uso indevido e divulgação.</td>
+            <td>O aplicativo deve proteger os dados dos usuários contra acesso não autorizado, uso indevido e divulgação de acordo com a LGPD.</td>
             <td>Alta</td>
         </tr>
         <tr>
             <td>RNF2</td>
             <td>Desempenho</td>
-            <td>O aplicativo deve ser rápido e responsivo, mesmo em dispositivos com recursos limitados.</td>
+            <td>O sistema deve ser capaz de processar ate mil transações por segundo</td>
             <td>Alta</td>
         </tr>
         <tr>
             <td>RNF3</td>
             <td>Escalabilidade</td>
-            <td>O aplicativo deve ser capaz de lidar com um grande número de usuários e transações.</td>
+            <td>O aplicativo deve ser capaz de lidar com um grande número de usuários e transações, utilizando containers escalaveis hospedados na nuvem (AWS).</td>
             <td>Alta</td>
         </tr>
         <tr>
             <td>RNF4</td>
             <td>Disponibilidade</td>
-            <td>O aplicativo deve estar disponível 24 horas por dia, 7 dias por semana.</td>
+            <td>O aplicativo deve estar disponível 24 horas por dia, 7 dias por semana, caso ele caia devera ser reiniciado automaticamente via pipeline.</td>
             <td>Alta</td>
         </tr>
         <tr>
             <td>RNF5</td>
             <td>Usabilidade</td>
-            <td>O aplicativo deve ser fácil de usar para todos os tipos de usuários, inclusive aqueles com pouca experiência com tecnologia.</td>
+            <td>Todas as caixas de dialogo e botões tem a mesma aparencia e comportamento retirando alguns lugares chaves como a finalização da compra para gerar mais atenção do consumidor.</td>
             <td>Alta</td>
         </tr>
         <tr>
             <td>RNF6</td>
             <td>Acessibilidade</td>
-            <td>O aplicativo deve ser acessível a pessoas com deficiência.</td>
+            <td>O aplicativo deve ser acessível a pessoas com deficiência visual trabalhando em conjunto de empresas como EqualWeb, BeMyEyes e Assistive alem de funções nativas do smartphone.</td>
             <td>Média</td>
         </tr>
         <tr>
             <td>RNF7</td>
             <td>Manutenabilidade</td>
-            <td>O aplicativo deve ser fácil de manter e atualizar.</td>
+            <td>O aplicativo deve ser fácil de manter e atualizar utilizando ciclos de GMUD para lançamentos de releases com novas versões e com cronogramas diarios para hotfix.</td>
             <td>Média</td>
         </tr>
     </tbody>
