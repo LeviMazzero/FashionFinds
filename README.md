@@ -313,11 +313,11 @@ Pontuações sobre a empresa
             <td>Permite que o cliente procure produtos no aplicativo.</td>
             <td>Termo de busca, Categoria do produto, Localização</td>
             <td>Interface do aplicativo para o cliente</td>
-            <td>Lista de produtos que correspondem ao termo de busca, Mapa com a localização dos produtos</td>
+            <td>Lista de produtos que correspondem ao termo de busca, e produtos correlacionados</td>
             <td>Interface do aplicativo para o cliente</td>
-            <td>Pesquisar no banco de dados os produtos que correspondem ao termo de busca, Obter a localização dos produtos</td>
-            <td>O cliente deve estar logado no aplicativo.</td>
-            <td>O cliente terá acesso a uma lista de produtos que correspondem ao termo de busca. O cliente poderá visualizar a localização dos produtos em um mapa.</td>
+            <td>Pesquisar no banco de dados os produtos que correspondem ao termo de busca</td>
+            <td>O cliente deve ter o aplicativo baixado e atualizado.</td>
+            <td>O cliente terá acesso a uma lista de produtos que correspondem ao termo de busca. O cliente poderá visualizar a localização dos produtos</td>
             <td>Nenhum.</td>
         </tr>
     </tbody>
