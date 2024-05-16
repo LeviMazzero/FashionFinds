@@ -327,13 +327,13 @@ Pontuações sobre a empresa
 
 ![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/cc4ddd12-1452-48df-a7cf-d8e4076a9073)
 
-<p>Cenário:
+Cenário:
 Um cliente com deficiência visual utiliza um aplicativo para realizar uma compra.
 Funcionalidades:
 O aplicativo coleta informações sobre as ferramentas de acessibilidade do celular do cliente.
 A tela é lida em voz alta através da ferramenta TTS (texto para fala) do celular.
 O cliente navega pelo aplicativo usando comandos de acessibilidade (gestos de toque ou voz).
-O aplicativo oferece feedback audível durante todo o processo de compra.<\p>
+O aplicativo oferece feedback audível durante todo o processo de compra.
 
 ![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/3d05a225-3d0e-4071-b573-3206e64cdfc8)
 
