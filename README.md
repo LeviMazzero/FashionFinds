@@ -326,22 +326,72 @@ Pontuações sobre a empresa
 -Casos de uso
 
 ![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/cc4ddd12-1452-48df-a7cf-d8e4076a9073)
+
 Cenário:
-
-
 Um cliente com deficiência visual utiliza um aplicativo para realizar uma compra.
-
-
 Funcionalidades:
-
-
-
 O aplicativo coleta informações sobre as ferramentas de acessibilidade do celular do cliente.
-
 A tela é lida em voz alta através da ferramenta TTS (texto para fala) do celular.
-
 O cliente navega pelo aplicativo usando comandos de acessibilidade (gestos de toque ou voz).
-
 O aplicativo oferece feedback audível durante todo o processo de compra.
+
+![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/3d05a225-3d0e-4071-b573-3206e64cdfc8)
+
+Tentativa de Login: O cliente digita seu nome de usuário e tenta logar na conta. O sistema detecta que a senha está incorreta e apresenta a opção para "Esquecer a Senha?".
+Solicitação de Nova Senha: O cliente clica em "Esquecer a Senha?" e é direcionado para uma página para recuperar a senha. Ele insere seu nome de usuário ou endereço de e-mail associado à conta.
+Validação por SMS: O sistema envia um SMS para o número de telefone cadastrado na conta do cliente. O SMS contém um código único.
+Autenticação do Cliente: O cliente recebe o SMS e digita o código no site. Se o código estiver correto, o cliente pode criar uma nova senha para sua conta.
+Nova Senha Definida: O cliente define uma nova senha e confirma. A senha deve atender aos requisitos de segurança da plataforma.
+Acesso à Conta: Com a nova senha definida, o cliente pode fazer login em sua conta e acessar seus dados e funcionalidades
+
+![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/343c6724-b58c-499b-9dcf-b8895cdb8345)
+
+Um cliente está utilizando um aplicativo para realizar uma transação. Enquanto isso, o aplicativo precisa lidar com outras transações simultâneas de outros usuários.
+Arquitetura robusta: O aplicativo deve ser projetado com uma arquitetura robusta que possa lidar com um alto volume de transações simultâneas. Isso pode incluir o uso de bancos de dados distribuídos, filas de mensagens e balanceamento de carga.
+Mecanismos de bloqueio: Mecanismos de bloqueio podem ser usados para evitar conflitos entre transações simultâneas. Isso garante que apenas uma transação possa acessar um recurso específico por vez.
+Otimização de consultas: As consultas ao banco de dados devem ser otimizadas para minimizar o tempo de resposta. Isso pode incluir o uso de índices, cache e técnicas de fragmentação.
+
+![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/f5a93920-4ce5-44f7-9267-86d3d1dd2919)
+
+Reporte: Cliente registra o problema (passos para reproduzir, mensagem de erro, etc.).
+Chamado: Suporte cria um chamado para devs com as informações do reporte.
+Análise: Devs investigam, reproduzem e identificam a causa do erro.
+Correção: Devs implementam a correção no código-fonte e testam.
+Deploy: Hotfix com a correção é implantado em produção.
+Verificação: Cliente testa o sistema e verifica se o erro foi corrigido.
+
+![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/10b8382b-54d5-41fc-8b30-d6225650e5dc)
+Detecção e Diagnóstico: A falha foi detectada e sua causa diagnosticada pela equipe técnica.
+
+Solução: O problema foi solucionado através de medidas como reparo de hardware, otimização do sistema ou remoção de malware.
+
+Reinicialização: O servidor foi reiniciado após a solução do problema, restaurando o serviço.
+
+
+Análise Pós-Evento:
+
+
+
+A causa raiz da falha foi identificada.
+
+Medidas preventivas foram implementadas para evitar recorrência.
+
+Stakeholders foram comunicados sobre o incidente e as ações tomadas.
+
+
+Objetivo: Alta disponibilidade do servidor com tempo de inatividade mínimo.
+
+
+Observações:
+
+
+
+Detalhes variam conforme o ambiente e a infraestrutura.
+
+Plano de resposta a incidentes é crucial.
+
+Monitoramento, manutenção preventiva e segurança robusta são essenciais.
+
+
 
 *"Empoderando microempreendedores, conectando comunidades."*
