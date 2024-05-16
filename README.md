@@ -361,37 +361,81 @@ Deploy: Hotfix com a correção é implantado em produção.
 Verificação: Cliente testa o sistema e verifica se o erro foi corrigido.
 
 ![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/10b8382b-54d5-41fc-8b30-d6225650e5dc)
+
 Detecção e Diagnóstico: A falha foi detectada e sua causa diagnosticada pela equipe técnica.
-
 Solução: O problema foi solucionado através de medidas como reparo de hardware, otimização do sistema ou remoção de malware.
-
 Reinicialização: O servidor foi reiniciado após a solução do problema, restaurando o serviço.
-
-
 Análise Pós-Evento:
-
-
-
 A causa raiz da falha foi identificada.
-
 Medidas preventivas foram implementadas para evitar recorrência.
-
 Stakeholders foram comunicados sobre o incidente e as ações tomadas.
-
-
 Objetivo: Alta disponibilidade do servidor com tempo de inatividade mínimo.
-
-
 Observações:
-
-
-
 Detalhes variam conforme o ambiente e a infraestrutura.
-
 Plano de resposta a incidentes é crucial.
-
 Monitoramento, manutenção preventiva e segurança robusta são essenciais.
 
+![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/be2ed69a-1567-431f-bb42-7ff3d0b01b4e)
+
+Cenário:
+O objetivo do caso é apresentar uma interface amigável que facilite a navegação e a compreensão do usuário, especialmente para leigos. O foco está em:
+Uso de cores homogêneas em botões para etapas menos importantes: Essa prática visa direcionar o olhar do usuário para as ações principais, evitando distrações e facilitando a identificação das etapas cruciais do processo.
+Interface amigável e intuitiva: A plataforma deve ser projetada de forma clara e simples, utilizando linguagem acessível e recursos visuais que facilitem a compreensão dos passos a serem seguidos.
+Destaque de pontos-chave: Elementos importantes, como a finalização de uma compra, devem ser destacados visualmente para que o usuário os identifique rapidamente e sem dúvidas.
+
+![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/1de810f7-ffda-46c5-a14b-d1f347689860)
 
 
+
+![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/f838744e-0ce4-4966-8cf3-bfa8c368cfe9)
+
+Cenário:
+
+O caso em questão descreve o processo completo de compra desde a interação do cliente com o site da loja até a entrega do produto na loja física. O processo envolve tanto o cliente quanto o comerciante, com interações distintas em cada etapa.
+
+Etapas para o Cliente:
+1. Interação com o Site:
+    O cliente acessa o site da loja e navega pelos produtos.
+    Ele pode pesquisar por produtos específicos ou navegar por categorias.
+    O cliente encontra o produto desejado e o adiciona ao carrinho de compras.
+2. Login/Cadastro:
+    Se o cliente já possui uma conta, ele faz login usando seu e-mail e senha.
+    Caso seja um novo cliente, ele precisa se cadastrar fornecendo seus dados pessoais e criando uma senha.
+3. Visualizar Carrinho de Compras:
+    O cliente revisa os itens do seu carrinho de compras, podendo alterar quantidades ou remover itens.
+    Ele verifica o valor total da compra e os custos de envio.
+4. Escolha de Pagamento:
+    O cliente escolhe o método de pagamento desejado entre as opções disponíveis (cartão de crédito, boleto bancário, etc.).
+    Ele insere os dados do pagamento e confirma a compra.
+5. Finalizar Compra:
+    A compra é finalizada e o cliente recebe um e-mail de confirmação com o número do pedido e os detalhes da compra.
+6. Imprimir Nota:
+    O cliente pode imprimir a nota fiscal do pedido através do site da loja.
+7. Aguardar Pedido:
+    O cliente recebe um e-mail de notificação quando o pedido for preparado e outro quando for enviado.
+    Ele pode acompanhar o status do pedido através do site da loja ou do link de rastreamento fornecido no e-mail.
+8. Receber Pedido na Loja:
+    O cliente se dirige à loja física no horário combinado para retirar o pedido.
+    Ele apresenta a nota fiscal impressa ou o e-mail de confirmação ao atendente da loja.
+    O atendente verifica o pedido e o entrega ao cliente.
+Etapas para o Comerciante:
+1. Receber Pedido:
+    O comerciante recebe uma notificação no site ou por e-mail quando um novo pedido é realizado.
+    Ele acessa o sistema de gerenciamento de pedidos e visualiza os detalhes do pedido, incluindo os produtos, a quantidade, o valor total e o endereço de entrega.
+2. Buscar Produto por Categoria:
+    O comerciante acessa o sistema de gerenciamento de estoque e busca os produtos do pedido por categoria.
+    Ele verifica a disponibilidade dos produtos em estoque e os separa para preparar o pedido.
+3. Preparar Pedido:
+    O comerciante embala os produtos com cuidado e segurança, identificando o pedido com o número correspondente.
+    Ele imprime a nota fiscal do pedido e a coloca junto com os produtos.
+4. Entregar Nota com Endereço:
+    O comerciante entrega a nota fiscal com o endereço de entrega ao cliente ou à transportadora responsável pela entrega.
+5. Ir até o Endereço:
+    Se o cliente optar pela entrega na loja, o comerciante não precisa realizar essa etapa.
+    Caso a entrega seja feita por transportadora, o comerciante acompanha o status da entrega através do sistema de rastreamento.
+6. Interação com o Site:
+    O comerciante pode acessar o site da loja para gerenciar seus produtos, pedidos e estoque.
+    Ele pode adicionar novos produtos, atualizar fotos e descrições, alterar preços e definir a disponibilidade em estoque.
+    O comerciante também pode visualizar o histórico de vendas, gerar relatórios e gerenciar seus clientes.
+   
 *"Empoderando microempreendedores, conectando comunidades."*
