@@ -323,5 +323,6 @@ Pontuações sobre a empresa
     </tbody>
 </table>
 
+![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/cc4ddd12-1452-48df-a7cf-d8e4076a9073)
 
 *"Empoderando microempreendedores, conectando comunidades."*
