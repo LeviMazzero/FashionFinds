@@ -385,7 +385,16 @@ Destaque de pontos-chave: Elementos importantes, como a finalização de uma com
 
 ![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/1de810f7-ffda-46c5-a14b-d1f347689860)
 
-
+UC001: Transações
+Este caso de uso descreve a funcionalidade central do processamento de transações, incluindo o recebimento de solicitações de transação, validação de dados, processamento de pagamentos e atualização de saldos de contas.
+UC002: Transações Rejeitadas
+Este caso de uso lida com o cenário em que uma transação é rejeitada devido a fundos insuficientes, informações de cartão inválidas ou outros motivos.
+UC003: Sistema AWS Indisponível
+Resumo: Este caso de uso aborda a situação em que a infraestrutura ou serviços da AWS sofrem uma interrupção, impactando a capacidade do sistema de processar transações.
+UC004: Abrir Chamado de Suporte
+Este caso de uso permite que usuários ou administradores abram chamados de suporte ao encontrar problemas ou precisar de assistência.
+UC005: Gerar Recibos
+Este caso de uso facilita a geração de recibos de transação para que os usuários mantenham registros de suas transações.
 
 ![image](https://github.com/LeviMazzero/FashionFinds/assets/91742210/f838744e-0ce4-4966-8cf3-bfa8c368cfe9)
 
